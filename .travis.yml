@@ -1,7 +1,7 @@
 language: php
 os:
 - linux
-script: echo test
+script: echo test1
 before_deploy:
   - zip -r latest *
   - test -d dpl_cd_upload || mkdir dpl_cd_upload
